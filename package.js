@@ -1,7 +1,7 @@
 Package.describe({
   name: "clinical:base-model",
   summary: "A model for all other models to inherit from ",
-  version: "1.3.4",
+  version: "1.3.5",
   git: "https://github.com/clinical-meteor/clinical-base-model.git"
 });
 
@@ -32,7 +32,7 @@ Package.onUse(function (api) {
     ]);
 
   api.addFiles([
-    "lib/base-model.js",
+    "lib/BaseModel.js",
     "lib/security.js"
   ]);
 
