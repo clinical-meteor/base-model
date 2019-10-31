@@ -9,7 +9,7 @@ Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
 
   api.use([
-    "meteor-base",
+    "meteor-base@1.4.0",
     "mongo",
     "underscore"
   ]);
