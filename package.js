@@ -9,11 +9,11 @@ Package.onUse(function (api) {
   api.versionsFrom('1.1.0.3');
 
   api.use([
-    "meteor-platform",
+    "meteor-base",
     "mongo",
     "underscore"
   ]);
-  api.use('ecmascript@0.9.0');
+  api.use('ecmascript@0.12.4');
   
   api.use([
       "socialize:server-time@0.1.1",
@@ -21,7 +21,7 @@ Package.onUse(function (api) {
       "matb33:collection-hooks@0.7.13"
     ]);
 
-  api.imply(["meteor-platform", "mongo", "underscore"]);
+  api.imply(["meteor-base", "mongo", "underscore"]);
 
   api.imply([
       "tmeasday:publish-with-relations@0.2.0",
